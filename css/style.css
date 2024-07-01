@@ -316,7 +316,6 @@ a {
     font-size: 1.2em;
     line-height: 160%;
     color: #CDCFCF;
-
 }
 
 .sub_title_container_2 p b {
@@ -734,6 +733,29 @@ a {
     height: auto;
 }
 
+.size_btn {
+    max-width: 780px;
+}
+
+.btn_segredos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #379200;
+    padding: 20px 40px;
+    max-width: 780px;
+    border: 1px solid #A2FD6A;
+    border-radius: 5px;
+}
+
+.btn_segredos h2 {
+    font-weight: bold;
+    color: #CDCFCF;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 0.2cap;
+}
+
 .area_box_valor {
     width: 100%;
     background: #1E1E1E;
@@ -783,7 +805,7 @@ a {
     font-size: 8em;
     line-height: 100%;
     color: #FFFFFF;
-    text-align: center; 
+    text-align: center;
 }
 
 .area_titles_preco {
@@ -797,8 +819,125 @@ a {
 .a_vista {
     position: absolute;
     bottom: 0px;
-    right: 0px;
+    right: 40px;
     z-index: 1;
     max-width: max-content;
     width: 100%;
+}
+
+.area_compra_segura {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.compra_segura {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.info_compra_segura p {
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+
+#container_7 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #EAEAEA;
+}
+
+.container_7 {
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/bg_segredos.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0px 60px 0px;
+}
+
+
+.container_7_int {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1280px;
+    width: 100%;
+}
+
+.area_container_7 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    text-align: center;
+    max-width: 940px;
+}
+
+.area_container_7 img {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+}
+
+.title_container_7 h2 {
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+
+.title_container_7 h2 b {
+    background-image: linear-gradient(to bottom, #E5C06E, #CA9F4E);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-weight: bold;
+}
+
+.sub_title_container_7 p {
+    font-size: 1.2em;
+    line-height: 160%;
+    color: #131313;
+    font-weight: 400;
+}
+
+.sub_title_container_7 p b {
+    background-image: linear-gradient(to bottom, #E5C06E, #CA9F4E);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-weight: bold;
+}
+
+.sub_title_container_7 p u  {
+    background-color: #FFD600;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.info_container_7 p {
+    font-size: 1.2em;
+    line-height: 160%;
+    color: #131313;
+    font-weight: 400;
+}
+
+.info_container_7 p b {
+    font-weight: bold;
 }

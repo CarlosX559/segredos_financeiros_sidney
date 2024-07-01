@@ -54,6 +54,7 @@ a {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    width: 100%;
 }
 
 .area_text_container_1 {
@@ -118,6 +119,7 @@ a {
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .info_preco p {
@@ -554,6 +556,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 60px 0px 60px 0px;
+    height: 1000px;
 }
 
 .container_5 {
@@ -754,6 +757,7 @@ a {
     font-size: 1.2em;
     text-transform: uppercase;
     letter-spacing: 0.2cap;
+    text-align: center;
 }
 
 .area_box_valor {
@@ -776,6 +780,7 @@ a {
     font-size: 2em;
     line-height: 120%;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .info_preco_box p b {
@@ -924,7 +929,7 @@ a {
     font-weight: bold;
 }
 
-.sub_title_container_7 p u  {
+.sub_title_container_7 p u {
     background-color: #FFD600;
     color: #000;
     font-weight: bold;
@@ -940,4 +945,188 @@ a {
 
 .info_container_7 p b {
     font-weight: bold;
+}
+
+
+@media(max-width: 1024px) {
+
+    #container_1 {
+        background-image: url(../img/HERO-MOBILE.jpg);
+        background-position: top;
+        padding: 40px 0px;
+        height: 1500px;
+    }
+
+    .area_container_1 {
+        justify-content: center;
+        height: 100%;
+        align-items: flex-end;
+    }
+
+    .btn_container h2 {
+        font-size: 1em;
+    }
+
+    #bg_mansao {
+        gap: 0px;
+    }
+
+    .area_swiper {
+        padding: 0px 20px;
+    }
+
+    .logo_home {
+        max-width: 280px;
+    }
+
+    .area_text_container_1 {
+        align-items: center;
+        text-align: center;
+    }
+
+    .title_contaner_1 h1 {
+        font-size: 1.6em;
+    }
+
+    .title_swiper h2 {
+        font-size: 1.6em;
+    }
+
+    .title_container_2 h2 {
+        font-size: 1.6em;
+    }
+
+    .area_container_2 {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .area_text_container_2 {
+        text-align: center;
+        gap: 30px;
+    }
+
+    .bg_ultimo {
+        max-width: 540px;
+    }
+
+    .title_box_container_3 h2 {
+        font-size: 1.6em;
+    }
+
+    .area_box_container_3 {
+        padding: 40px 60px;
+    }
+
+    .area_cards_container_4 {
+        padding: 0px 20px;
+    }
+
+    .area_title_container_4 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .title_container_4 h2 {
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+
+    #container_5 {
+        height: auto;
+        background-color: #EAEAEA;
+        background-image: url('');
+    }
+
+    .area_container_5 {
+        padding: 0px 20px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .title_container_5 h2 {
+        font-size: 1.6em;
+    }
+
+    .container_6_int {
+        padding: 0px 20px;
+    }
+
+    .area_col_1 {
+        gap: 40px;
+    }
+
+    .tile_col_1 h2 {
+        font-size: 1.6em;
+    }
+
+    .block_col_int {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .area_box_valor {
+        padding: 40px 60px;
+    }
+
+    .info_preco_box p {
+        font-size: 1.6em;
+    }
+
+    .info_preco_box_2 h2 {
+        font-size: 3em;
+    }
+
+    .preco_box h2 {
+        font-size: 6em;
+    }
+
+    .a_vista {
+        bottom: 0px;
+        right: -10px;
+        max-width: 100px !important;
+    }
+
+    .area_container_7 {
+        padding: 0px 20px;
+        gap: 30px;
+    }
+
+    .title_container_7 h2 {
+        font-size: 1.6em;
+    }
+
+}
+
+@media(max-width: 480px) {
+    .area_box_container_3 {
+        padding: 20px;
+    }
+
+    .title_box_container_3 h2 {
+        font-size: 1.4em;
+    }
+
+    .card_container_4 {
+        height: auto;
+    }
+
+    .card_container_4_int {
+        padding-bottom: 20px;
+    }
+
+    .preco_box h2 {
+        font-size: 4em;
+    }
+
+    .a_vista {
+        bottom: -20px;
+    }
+
+    .btn_segredos h2 {
+        font-size: 1em;
+    }
+
 }

@@ -364,7 +364,6 @@ a {
     font-weight: 700;
     font-size: 2em;
     line-height: 120%;
-    text-transform: uppercase;
     color: #131313;
     text-align: center;
 
@@ -954,7 +953,8 @@ a {
         background-image: url(../img/HERO-MOBILE.jpg);
         background-position: top;
         padding: 40px 0px;
-        height: 1500px;
+        height: 1300px;
+        background-size: contain;
     }
 
     .area_container_1 {
@@ -984,12 +984,20 @@ a {
         text-align: center;
     }
 
+    .container_swiper {
+        padding: 40px 0px 40px 0px;
+    }
+
     .title_contaner_1 h1 {
-        font-size: 1.6em;
+        font-size: 1.4em;
     }
 
     .title_swiper h2 {
         font-size: 1.6em;
+    }
+
+    .container_2 {
+        padding: 40px 0px 40px 0px;
     }
 
     .title_container_2 h2 {

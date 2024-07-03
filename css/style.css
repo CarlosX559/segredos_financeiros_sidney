@@ -698,6 +698,7 @@ a {
     border-radius: 10px;
     padding: 20px 40px;
     border-bottom: 9px solid #E5C06E;
+    height: auto;
 }
 
 .block_col_int {
@@ -989,7 +990,7 @@ a {
     }
 
     .title_contaner_1 h1 {
-        font-size: 1.4em;
+        font-size: 1.6em;
     }
 
     .title_swiper h2 {
@@ -1127,6 +1128,14 @@ a {
 
     .preco_box h2 {
         font-size: 4em;
+    }
+
+    .title_swiper h2 {
+        font-size: 1.4em;
+    }
+
+    .title_contaner_1 h1 {
+        font-size: 1.4em;
     }
 
     .a_vista {

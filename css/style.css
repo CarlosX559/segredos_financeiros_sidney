@@ -1130,6 +1130,10 @@ a {
         font-size: 4em;
     }
 
+    .info_card h2 {
+        padding: 0px 20px;
+    }
+
     .title_swiper h2 {
         font-size: 1.4em;
     }

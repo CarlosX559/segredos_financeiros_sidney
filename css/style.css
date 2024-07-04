@@ -340,14 +340,43 @@ a {
 }
 
 .box_container {
-    width: 300px;
+    max-width: 350px;
+    width: 100%;
+    background: #303030;
+    border: 1px solid #717171;
+    border-radius: 14px;
+    padding: 40px 20px 40px 40px;
+    height: 620px;
 }
 
-.box_container img {
-    max-width: 300px;
+.box_container_int {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.box_container_int img {
+    max-width: max-content;
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 100px;
+}
+
+.info_box_container p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 120%;
+    color: #D7D7D7;
+
+}
+
+.info_box_container p b {
+    background-color: #FFD600;
+    color: #000;
+    font-weight: 600;
 }
 
 /*Container 2*/

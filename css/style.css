@@ -1,8 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap');
 
+@font-face {
+    font-family: 'MicroSquare Bold';
+    src: url('../fontes/MicroSquare-Bold.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MicroSquare Regular';
+    src: url('../fontes/MicroSquare-Regular.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RobotoFlex Regular';
+    src: url('../fontes/RobotoFlex-Regular.ttf');
+    font-display: swap;
+}
+
 * {
     box-sizing: border-box;
-    font-family: 'Anybody';
+    font-family: 'Anybody', 'MicroSquare Regular', 'MicroSquare Bold', 'RobotoFlex Regular';
 }
 
 body {
@@ -270,8 +288,9 @@ a {
 }
 
 .btn_container h2 {
+    font-family: 'RobotoFlex Regular';
     font-weight: bold;
-    color: #CDCFCF;
+    color: #fff;
     font-size: 1.2em;
     text-transform: uppercase;
     letter-spacing: 0.2cap;
@@ -346,7 +365,7 @@ a {
     border: 1px solid #717171;
     border-radius: 14px;
     padding: 40px 20px 40px 40px;
-    height: 620px;
+    height: 650px;
 }
 
 .box_container_int {
@@ -736,7 +755,7 @@ a {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 1280px;
+    max-width: 1360px;
 }
 
 .area_container_5 {
@@ -924,12 +943,12 @@ a {
 }
 
 .btn_segredos h2 {
+    font-family: 'RobotoFlex Regular';
     font-weight: bold;
-    color: #CDCFCF;
+    color: #fff;
     font-size: 1.2em;
     text-transform: uppercase;
     letter-spacing: 0.2cap;
-    text-align: center;
 }
 
 .area_box_valor {
@@ -995,8 +1014,8 @@ a {
 
 .a_vista {
     position: absolute;
-    bottom: 0px;
-    right: 40px;
+    bottom: -20px;
+    right: 20px;
     z-index: 1;
     max-width: max-content;
     width: 100%;
@@ -1711,10 +1730,6 @@ footer {
     .a_vista {
         bottom: -20px;
         max-width: 90px !important;
-    }
-
-    .box_container {
-        height: 640px;
     }
 
     .btn_segredos h2 {

@@ -294,6 +294,7 @@ a {
     font-size: 1.2em;
     text-transform: uppercase;
     letter-spacing: 0.2cap;
+    text-align: center;
 }
 
 /*Container Swiper*/
@@ -950,6 +951,7 @@ a {
     font-size: 1.2em;
     text-transform: uppercase;
     letter-spacing: 0.2cap;
+    text-align: center;
 }
 
 .area_box_valor {
@@ -1739,6 +1741,7 @@ footer {
 
     .info_copy p {
         padding: 0px 20px;
+        text-align: center;
     }
 
 }
